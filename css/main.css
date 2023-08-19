@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+li {
+  box-sizing: border-box;
+}
+
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, 0.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.section_inner {
+  padding: 50px 10% 30px;
+}
+
+.key {
+  display: flex;
+  text-align: center;
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+}
+
+.barraDeTitulo {
+  margin-top: 115px;
+}
+
+.key h1 {
+  font-size: 2.5rem;
+}
+
+.consepto {
+  display: flex;
+}
+
+.consepto > img {
+  width: 35%;
+}
+
+.conceptoParrafo {
+  width: 60%;
+}
+
+.section_title {
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.horario{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.horarioTitulo {
+  width: 80px;
+}
+
+.sectionMenu {
+  background-image: url("../images/sample_menu_bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuUno {
+  display: flex;
+  flex-flow: row-reverse;
+  margin: 25px;
+}
+
+.descripcionMenu {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.barraDeMenus {
+  flex-flow: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenDeMenu {
+  width: 55%;
+  height: 300px;
+}
+
+.menuPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.menuCard {
+  padding: 25px;
+}
+
+.menuSection {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.cardSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.cardPrice{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+
+.openingBar {
+  width: 250px;
+  float: left;
+  
+}
+
+.barraDePie {
+  display:flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 75px;
+
+
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footNav {
+  height: 75px;
+}
+
+.footerItem {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+footer {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background-color: #251e19;
+}
+
+.imgFooter {
+  height: 40px;
+}
+.corp {
+  color:red;
+  
+}
